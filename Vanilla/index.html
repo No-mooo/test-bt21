@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./reset.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="start">
+        <div class="start__btn">
+            НАЧАТЬ
+        </div>
+        <div class="start__list-fields">
+            <p>Список отправленных форм</p>
+            <ul></ul>
+        </div>
+    </div>
+    <div class="modal">
+        <form class="modal__form" name="form">
+            <div class="modal__field">
+                <label for="modal__name">Введите имя</label>
+                <input  required type="text" name="nameUser" id="modal__name">
+            </div>
+            <div class="modal__field">
+                <label for="modal__surname">Введите фамилию</label>
+                <input required type="text" name="surnameUser" id="modal__surname">
+            </div>
+            <div class="modal__field">
+                <label for="modal__hobby">Введите ваше хобби</label>
+                <input required type="text" name="hobby" id="modal__hobby">
+            </div>
+            <div class="modal__field">
+                <label for="modal__job">Где вы работаете</label>
+                <input required type="text" name="job" id="modal__job" >
+            </div>
+            <div class="modal__field">
+                <label for="modal__city">Город проживания</label>
+                <input required type="text" name="city" id="modal__city">
+            </div>
+
+            <button type="submit" class="modal__btn">Отправить</button>
+        </form>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
